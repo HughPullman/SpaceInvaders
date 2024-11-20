@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="index.css" />
+
+<div id="wrapper">
+  <div id="copyright">
+    Copyright <span>&copy;</span> Taito Corporation, implementation Copyright
+    <span>&copy;</span> Hugh Pullman
+  </div>
+
+  <div id="startBtnDiv">
+    <img src="img/logo.png" alt="" id="logo" />
+    <button id="startBtn" onclick="startGame()">START GAME</button>
+  </div>
+
+  <div id="controls">
+    <h2>CONTROLS</h2>
+    <p>Left: A or &#8592;</p>
+    <p>Right: D or &#8594;</p>
+    <p>Fire: Spacebar</p>
+  </div>
+
+  <div id="gameOver">
+    <h1 id="gameOverMsg">GAME OVER</h1>
+    <button id="restartGame" onclick="restartGame()">RESTART</button>
+  </div>
+
+  <canvas></canvas>
+
+  <p class="score">
+    <span>Score: </span>
+    <span id="scoreEl">0</span>
+  </p>
+  <p class="highScore">
+    <span>High Score: </span>
+    <span id="highScoreEl">0</span>
+  </p>
+</div>
+
+<script src="index.js"></script>

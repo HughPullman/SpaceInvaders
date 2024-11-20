@@ -1,0 +1,109 @@
+@font-face {
+    font-family: PublicPixel;
+    src: url(fonts/PublicPixel-z84yD.ttf);
+}
+
+body{
+    margin: 0;
+}
+
+#copyright{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    font-size: 12px;
+    color: white;
+}
+.score{
+    position: fixed;
+    bottom: 10px;
+    z-index: 99;
+    color: white;
+    margin-left: 30px;
+    font-size: 1.5rem;
+    font-family: PublicPixel;
+}
+
+.highScore{
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    z-index: 99;
+    color: white;
+    font-size: 1.5rem;
+    font-family: PublicPixel;
+}
+
+#controls{
+    position: fixed;
+    top: 50px;
+    right: 30px;
+    z-index: 99;
+    color: white;
+    font-size: 1rem;
+    font-family: PublicPixel;
+}
+
+
+
+
+#startBtnDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+#gameOver{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
+
+#gameOverMsg{
+    font-family: PublicPixel;
+    font-size: 70px;
+    color: white;
+}
+
+#restartGame{
+    font-family: PublicPixel;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    border: solid 1px white;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+#startBtn{
+    font-family: PublicPixel;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    border: solid 1px white;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#wrapper{
+    position: relative;
+    background-color: black;
+}
+
